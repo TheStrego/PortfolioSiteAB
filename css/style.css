@@ -1,0 +1,85 @@
+@font-face {
+  font-family: simplifica;
+  src: url(simplifica.ttf);
+}
+
+@font-face {
+  font-family: akira;
+  src: url(akira.otf);
+}
+
+body {
+  background-color: #ffffff;
+  font-family: simplifica;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #5B7B7A;
+}
+
+h1,h2,h3,h4 {
+  font-family:akira;
+  color: #433633;
+}
+
+h1 {
+  font-size: 2.75em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.35em;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #FF312E;
+  text-decoration: none;
+}
+
+a:visited {
+
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #ffd400;
+}
+
+.button {
+  font-family: akira;
+  display: inline-block;
+  background-color: #ffd400;
+  color: #433633;
+  padding: 10px 15px;
+  border-radius: 50px;
+  transition: 0.2s opacity;
+}
+
+.button:hover,
+.button:focus {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.button:active {
+  color: #ff312e;
+}
+
+.mail{
+  background-color: transparent;
+  border: 2px solid #433633;
+}
