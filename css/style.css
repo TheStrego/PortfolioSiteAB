@@ -16,6 +16,12 @@ body {
   color: #5B7B7A;
 }
 
+header {
+  background-color: #433633;
+  padding: 10px;
+  margin: 10px;
+}
+
 h1,h2,h3,h4 {
   font-family:akira, sans-serif;
   color: #433633;
