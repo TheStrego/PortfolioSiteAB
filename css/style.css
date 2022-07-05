@@ -38,7 +38,7 @@ footer {
 }
 
 main {
-  padding-top: 65px;
+  padding-top: 30px;
   width: 100%;
   text-align: center;
 }
@@ -62,7 +62,7 @@ nav > ul > li {
   position: absolute;
   right: 0;
   top: 2px;
-  font-size: 35px;
+  font-size: 20px;
   padding-right: 0px;
 }
 
@@ -74,7 +74,7 @@ nav > ul > li {
   display: block;
   text-align: center;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,49,46,0.5);
+  border-top: 1px solid rgba(255,255,255,0.5);
 }
 
 .navtoggle.responsive nav {
@@ -179,7 +179,7 @@ a:active {
 }
 
 .logo{
-  max-width: 60px;
+  max-width: 150px;
   width: 100%;
   height: auto;
 }
@@ -250,7 +250,7 @@ Medium devices (640px and larger)
   }
 
   .logo{
-    max-width: 100px;
+    max-width: 250px;
   }
 
   body {
@@ -259,17 +259,17 @@ Medium devices (640px and larger)
 
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding: 20px 0 15px;
   }
 
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
+    /* margin-top: 4px; */
   }
 
   main {
-    padding-top: 109px;
+    padding-top: 100px;
     text-align: unset;
   }
 
