@@ -38,7 +38,7 @@ footer {
 }
 
 main {
-  padding-top: 30px;
+  padding-top: 50px;
   width: 100%;
   text-align: center;
 }
@@ -106,22 +106,23 @@ ul {
 h1,h2,h3,h4 {
   font-family:akira, sans-serif;
   color: #433633;
+  margin: 0;
 }
 
 h1 {
-  font-size: 2.75em;
+  font-size: 2.0em;
 }
 
 h2 {
-  font-size: 2.25em;
-}
-
-h3 {
   font-size: 1.75em;
 }
 
+h3 {
+  font-size: 1.50em;
+}
+
 h4 {
-  font-size: 1.35em;
+  font-size: 1.0em;
 }
 
 img {
@@ -149,9 +150,9 @@ a:active {
 .button {
   font-family: akira;
   display: inline-block;
-  background-color: #ffd400;
-  color: #433633;
-  width:100%;
+  background-color: #5B7B7A;
+  color: #FFf;
+  width:80%;
   padding: 10px 15px;
   border-radius: 5px;
   transition: 0.3s opacity;
@@ -205,7 +206,7 @@ a:active {
 
 #work .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #433633;
+  border-bottom: 1px solid #FFD400;
 }
 
 #hero {
@@ -259,7 +260,7 @@ Medium devices (640px and larger)
 
   header {
     text-align: unset;
-    padding: 20px 0 15px;
+    padding: 20px 0 5px;
   }
 
   nav {
@@ -269,7 +270,7 @@ Medium devices (640px and larger)
   }
 
   main {
-    padding-top: 100px;
+    padding-top: 120px;
     text-align: unset;
   }
 
@@ -282,8 +283,12 @@ Medium devices (640px and larger)
   }
 
   [class*="col-"] {
-    float: left;
     padding: 0 10px;
+  }
+
+  .row{
+    display: flex;
+    align-items: center;
   }
 
   .row::after {
