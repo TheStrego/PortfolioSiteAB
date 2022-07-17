@@ -1,13 +1,16 @@
-body{
+body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
-  background-color: #323d40;
-  color: #95a4a9;
+  background-color: #323D40;
+  color: #95A4A9;
 }
 
-h1,h2,h3,h4{
+h1,
+h2,
+h3,
+h4 {
   font-family: Roboto, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
-  color: #e5e5e5;
+  color: #E5E5E5;
 }

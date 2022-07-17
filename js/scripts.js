@@ -1,11 +1,11 @@
-console.log("Hi! if you're reading this it means you're snooping around my code - make yourself at home!");
+console.log("Hi! if you're reading this it means you're snooping around my code - make yourself at home!")
 
 function menuToggle() {
-  var x = document.getElementById('myNavtoggle');
+  var x = document.getElementById('myNavtoggle')
   if (x.className === 'navtoggle') {
-    x.className += ' responsive';
+    x.className += ' responsive'
   } else {
-    x.className = 'navtoggle';
+    x.className = 'navtoggle'
   }
 }
 
@@ -17,31 +17,30 @@ $('a[href*="#"]')
   .click(function(event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-      &&
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      var target = $(this.hash)
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']')
       // Does a scroll target exist?
       if (target.length) {
         // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
+        event.preventDefault()
         $('html, body').animate({
           scrollTop: target.offset().top
         }, 1000, function() {
           // Callback after animation
           // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
+          var $target = $(target)
+          $target.focus()
+          if ($target.is(':focus')) { // Checking if the target was focused
+            return false
           } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
+            $target.attr('tabindex', '-1') // Adding tabindex for elements not focusable
+            $target.focus() // Set focus again
           };
-        });
+        })
       }
     }
-  });
+  })
