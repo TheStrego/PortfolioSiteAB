@@ -247,17 +247,27 @@ Medium devices (640px and larger)
     display: none;
   }
 
+  .navtoggle.responsive nav {
+    padding: 0;
+  }
+
+  .navtoggle.responsive li {
+    padding: 0;
+    border: none;
+    }
+
   .logo {
     max-width: 250px;
+    padding-top: 15px;
   }
 
   body {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   header {
     text-align: unset;
-    padding: 20px 0 5px;
+    padding: 10px 0 5px;
   }
 
   nav {
